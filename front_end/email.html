@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Email Practice</title>
+	<!--style type="text/css">
+		li {
+			display:inline;
+		}
+
+		img {
+			width: 510px;
+			height: 684px;
+		}
+	</style-->
+</head>
+<body>
+	<form action="" method="get">
+		<p>
+			<fieldset>
+				<legend>Your Details:</legend>
+				<label>Name:
+					<input type="text" name="name" maxlength="10" required="required" /></br>
+					Email:
+					<input type="email" name="email" maxlength="100" required="required" />
+				</label>
+			</fieldset>
+		</p>
+		<p>
+			<fieldset>
+				<legend>Your Review:</legend>
+				<p>How did you hear about us?
+					<select name="Source">
+						<option value="google" selected="selected">Google</option>
+						<option value="facebook"> Facebook </option>
+						<option value="AD">AD</option>
+					</select>
+				</p>
+				<p>Would you visit again?</br>
+					<input type="radio" name="visit_again" value="yes" checked="checked" /> Yes
+					<input type="radio" name="visit_again" value="no" /> No
+					<input type="radio" name="visit_again" value="maybe" /> Maybe
+				</p>
+				<p>Comments:</br>
+					<textarea name="comments" cols="20" rows="5">
+						Please type something...
+					</textarea>
+				</p>
+				<label>
+					<input type="checkbox" name="signBox" value="agree" checked="checked" />Sign me up for email updates
+				</label></br>
+				<input type="submit" name="submit" value="Submit review" />
+		</fieldset>
+		</p>
+	</form>
+</body>
+</html>
