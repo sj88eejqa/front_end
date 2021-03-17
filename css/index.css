@@ -1,0 +1,58 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#my-header{
+	background-color: coral;
+	font-weight: bold;
+}
+
+#my-nav ul{
+	padding: 0;
+	list-style: none;
+}
+
+#my-nav li{
+	display: inline;
+}
+
+#my-nav a{
+	color: #fff;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#my-nav{
+	background-image: url('../images/background/bricks.png');
+	background-position: center center;
+	min-height: 100px;
+}
+
+section{
+	width: 70%;
+	height: 300px;
+	float: left;
+	clear: left;
+	border: solid 2px #000;
+	box-sizing: border-box;
+}
+
+#brift-intro{
+	width: 30%;
+	height: 600px;
+	float:right;
+	border: solid 2px #000;
+	box-sizing: border-box;
+}
